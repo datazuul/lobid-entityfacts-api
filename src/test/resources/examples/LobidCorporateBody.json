@@ -1,0 +1,136 @@
+{
+  "type" : [ "AuthorityResource", "CorporateBody" ],
+  "@context" : "http://lobid.org/gnd/context.jsonld",
+  "gndSubjectCategory" : [ {
+    "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+    "label" : "Buchwissenschaft, Buchhandel"
+  } ],
+  "oldAuthorityNumber" : [ "(DE-588c)4137004-1", "(DE-588b)2004604-2", "(DE-588)4137004-1" ],
+  "geographicAreaCode" : [ {
+    "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AAAT",
+    "label" : "Österreich (-12.11.1918)"
+  }, {
+    "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DDDE",
+    "label" : "Deutschland (DDR)"
+  }, {
+    "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-SN",
+    "label" : "Sachsen"
+  }, {
+    "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DXDE",
+    "label" : "Deutschland, Deutsches Reich"
+  } ],
+  "deprecatedUri" : [ "https://d-nb.info/gnd/4137004-1" ],
+  "placeOfBusiness" : [ {
+    "id" : "https://d-nb.info/gnd/4035206-7",
+    "label" : "Leipzig"
+  }, {
+    "id" : "https://d-nb.info/gnd/4066009-6",
+    "label" : "Wien"
+  }, {
+    "id" : "https://d-nb.info/gnd/4021652-4",
+    "label" : "Gotha"
+  } ],
+  "biographicalOrHistoricalInformation" : [ "Umwandlung in eine Aktiengesellschaft: 01.01.1915", "1826 von Joseph Meyer in Gotha gegründet. 1915 bis 1945 Aktiengesellschaft. 1945 ging der gesamte Aufsichtsrat in die Amerikanisch Besetzte Zone (1953 Neugründung des Bibliographischen Instituts in Mannheim). Das Bibliographische Institut in Leipzig wurde 1946 volkseigener Betrieb. Ab 1990 wieder im Besitz der \"Bibliographisches Institut & F. A. Brockhaus AG\" (BIFAB AG). Die Firma \"Bibliographisches Institut GmbH, Leipzig\" ist ein eigenständiges Tochter-Unternehmen der BIFAB AG." ],
+  "precedingCorporateBody" : [ {
+    "id" : "https://d-nb.info/gnd/138141-6",
+    "label" : "Bibliographisches Institut (Hildburghausen)"
+  } ],
+  "dateOfEstablishment" : [ "1874" ],
+  "describedBy" : {
+    "id" : "https://d-nb.info/gnd/2004604-2/about",
+    "license" : {
+      "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+      "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "dateModified" : "2023-06-09T15:01:13.000",
+    "descriptionLevel" : {
+      "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+      "label" : "Allgemeines, Interdisziplinäre Allgemeinwörter"
+    }
+  },
+  "broaderTermInstantial" : [ {
+    "id" : "https://d-nb.info/gnd/4166086-9",
+    "label" : "Kunstverlag"
+  }, {
+    "id" : "https://d-nb.info/gnd/4063004-3",
+    "label" : "Verlag"
+  } ],
+  "gndIdentifier" : "2004604-2",
+  "id" : "https://d-nb.info/gnd/2004604-2",
+  "preferredName" : "Bibliographisches Institut (Leipzig)",
+  "spatialAreaOfActivity" : [ {
+    "id" : "https://d-nb.info/gnd/4051176-5",
+    "label" : "Sachsen"
+  } ],
+  "variantName" : [ "Leipzig, Bibliographisches Institut", "BI (Bibliographisches Institut, Leipzig)", "Bibliographisches Institut (Meyer) (Leipzig)", "VEB Bibliographisches Institut (Leipzig)", "Bibliographisches Institut & F. A. Brockhaus AG. Bibliographisches Institut (Leipzig)", "Bibliographisches Institut (Leipzig; Wien)", "Bibliographisches Institut", "Leipzig, VEB Bibliographisches Institut" ],
+  "abbreviatedNameForTheCorporateBody" : [ "BI" ],
+  "sameAs" : [ {
+    "collection" : {
+      "abbr" : "BNF",
+      "name" : "Bibliothèque nationale de France",
+      "publisher" : "Bibliothèque nationale de France",
+      "icon" : "https://www.bnf.fr/themes/custom/bnfsi/favicon.ico",
+      "id" : "http://www.wikidata.org/entity/Q19938912"
+    },
+    "id" : "http://catalogue.bnf.fr/ark:/12148/cb11719421z"
+  }, {
+    "id" : "http://id.loc.gov/rwo/agents/n50063857",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q13219454",
+      "abbr" : "LC",
+      "publisher" : "Library of Congress",
+      "icon" : "http://www.loc.gov/favicon.ico",
+      "name" : "NACO Authority File"
+    }
+  }, {
+    "id" : "http://isni.org/isni/0000000121718925",
+    "collection" : {
+      "id" : "http://isni.org"
+    }
+  }, {
+    "id" : "http://viaf.org/viaf/123639896",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q54919",
+      "abbr" : "VIAF",
+      "publisher" : "OCLC",
+      "icon" : "http://viaf.org/viaf/images/viaf.ico",
+      "name" : "Virtual International Authority File (VIAF)"
+    }
+  }, {
+    "collection" : {
+      "abbr" : "DNB",
+      "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+      "publisher" : "Deutsche Nationalbibliothek",
+      "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+      "id" : "http://www.wikidata.org/entity/Q36578"
+    },
+    "id" : "https://d-nb.info/gnd/2004604-2/about"
+  }, {
+    "id" : "https://d-nb.info/gnd/4137004-1",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q36578",
+      "abbr" : "DNB",
+      "publisher" : "Deutsche Nationalbibliothek",
+      "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+      "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek"
+    }
+  }, {
+    "collection" : {
+      "abbr" : "DE-611",
+      "name" : "Kalliope Verbundkatalog",
+      "publisher" : "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+      "icon" : "https://kalliope-verbund.info/img/favicon.ico",
+      "id" : "https://kalliope-verbund.info"
+    },
+    "id" : "https://kalliope-verbund.info/gnd/2004604-2"
+  }, {
+    "collection" : {
+      "abbr" : "DDB",
+      "name" : "Deutsche Digitale Bibliothek",
+      "publisher" : "Deutsche Digitale Bibliothek",
+      "icon" : "https://www.deutsche-digitale-bibliothek.de/favicon.ico",
+      "id" : "http://www.wikidata.org/entity/Q621630"
+    },
+    "id" : "https://www.deutsche-digitale-bibliothek.de/organization/gnd/2004604-2"
+  } ]
+}

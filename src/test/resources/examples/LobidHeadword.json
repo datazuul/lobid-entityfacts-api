@@ -1,0 +1,49 @@
+{
+  "relatedTerm" : [ {
+    "id" : "https://d-nb.info/gnd/4114294-9",
+    "label" : "Kosmologie"
+  }, {
+    "id" : "https://d-nb.info/gnd/4112486-8",
+    "label" : "All-Einheit"
+  } ],
+  "relatedDdcWithDegreeOfDeterminacy3" : [ {
+    "id" : "http://dewey.info/class/113/",
+    "label" : "http://dewey.info/class/113/"
+  }, {
+    "id" : "http://dewey.info/class/523.1/",
+    "label" : "http://dewey.info/class/523.1/"
+  } ],
+  "describedBy" : {
+    "id" : "https://d-nb.info/gnd/4079154-3/about",
+    "license" : {
+      "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+      "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "dateModified" : "2023-03-31T15:53:06.000",
+    "descriptionLevel" : {
+      "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+      "label" : "Allgemeines, Interdisziplinäre Allgemeinwörter"
+    }
+  },
+  "gndIdentifier" : "4079154-3",
+  "id" : "https://d-nb.info/gnd/4079154-3",
+  "preferredName" : "Weltall",
+  "type" : [ "SubjectHeadingSensoStricto", "SubjectHeading", "AuthorityResource" ],
+  "variantName" : [ "All", "Kosmos", "Universum" ],
+  "@context" : "http://lobid.org/gnd/context.jsonld",
+  "gndSubjectCategory" : [ {
+    "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#20",
+    "label" : "Astronomie, Weltraumforschung"
+  } ],
+  "oldAuthorityNumber" : [ "(DE-588c)4079154-3" ],
+  "sameAs" : [ {
+    "id" : "http://www.wikidata.org/entity/Q1",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q2013",
+      "abbr" : "WIKIDATA",
+      "publisher" : "Wikimedia Foundation Inc.",
+      "icon" : "https://www.wikidata.org/static/favicon/wikidata.ico",
+      "name" : "Wikidata"
+    }
+  } ]
+}

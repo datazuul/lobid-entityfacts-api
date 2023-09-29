@@ -1,0 +1,50 @@
+{
+  "broaderTermPartitive" : [ {
+    "id" : "https://d-nb.info/gnd/4099197-0",
+    "label" : "Faust, 1"
+  } ],
+  "languageCode" : [ {
+    "id" : "http://id.loc.gov/vocabulary/iso639-2/ger",
+    "label" : "http://id.loc.gov/vocabulary/iso639-2/ger"
+  } ],
+  "type" : [ "Work", "AuthorityResource" ],
+  "@context" : "http://lobid.org/gnd/context.jsonld",
+  "gndSubjectCategory" : [ {
+    "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p",
+    "label" : "Personen zu Literaturgeschichte (Schriftsteller)"
+  } ],
+  "oldAuthorityNumber" : [ "(DE-588c)4590418-2" ],
+  "geographicAreaCode" : [ {
+    "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE",
+    "label" : "Deutschland"
+  } ],
+  "describedBy" : {
+    "id" : "https://d-nb.info/gnd/4590418-2/about",
+    "license" : {
+      "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+      "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "dateModified" : "2017-09-08T14:45:00.000",
+    "descriptionLevel" : {
+      "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+      "label" : "Allgemeines, Interdisziplinäre Allgemeinwörter"
+    }
+  },
+  "gndIdentifier" : "4590418-2",
+  "id" : "https://d-nb.info/gnd/4590418-2",
+  "preferredName" : "Faust, 1, 1770-1850",
+  "firstAuthor" : [ {
+    "id" : "https://d-nb.info/gnd/118540238",
+    "label" : "Goethe, Johann Wolfgang von"
+  } ],
+  "sameAs" : [ {
+    "id" : "http://viaf.org/viaf/194765888",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q54919",
+      "abbr" : "VIAF",
+      "publisher" : "OCLC",
+      "icon" : "http://viaf.org/viaf/images/viaf.ico",
+      "name" : "Virtual International Authority File (VIAF)"
+    }
+  } ]
+}

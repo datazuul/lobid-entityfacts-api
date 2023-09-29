@@ -1,0 +1,122 @@
+{
+  "type" : [ "AuthorityResource", "TerritorialCorporateBodyOrAdministrativeUnit", "PlaceOrGeographicName" ],
+  "@context" : "http://lobid.org/gnd/context.jsonld",
+  "oldAuthorityNumber" : [ "(DE-588c)4065105-8", "(DE-588b)2027981-4", "(DE-588)2027981-4" ],
+  "geographicAreaCode" : [ {
+    "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-TH",
+    "label" : "Thüringen"
+  } ],
+  "hasGeometry" : [ {
+    "type" : "Point",
+    "asWKT" : [ "Point ( +011.329029 +050.980299 )" ]
+  } ],
+  "deprecatedUri" : [ "https://d-nb.info/gnd/2027981-4" ],
+  "biographicalOrHistoricalInformation" : [ "kreisfreie Stadt an der Ilm, 899 urkundl. erwähnt (Burg), um 1250 Stadt (1254 Civitas) gegründet, 1410 Stadtrecht" ],
+  "relatedDdcWithDegreeOfDeterminacy4" : [ {
+    "id" : "http://dewey.info/class/2--432241/",
+    "label" : "http://dewey.info/class/2--432241/"
+  } ],
+  "describedBy" : {
+    "id" : "https://d-nb.info/gnd/4065105-8/about",
+    "license" : {
+      "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+      "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "dateModified" : "2023-03-24T16:31:23.000",
+    "descriptionLevel" : {
+      "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+      "label" : "Allgemeines, Interdisziplinäre Allgemeinwörter"
+    }
+  },
+  "gndIdentifier" : "4065105-8",
+  "id" : "https://d-nb.info/gnd/4065105-8",
+  "preferredName" : "Weimar",
+  "wikipedia" : [ {
+    "id" : "https://de.wikipedia.org/wiki/Weimar",
+    "label" : "https://de.wikipedia.org/wiki/Weimar"
+  } ],
+  "variantName" : [ "Weimar (Thüringen)", "Vejmar", "Kreis Weimar-Stadt", "Wimares", "Vimaria", "Stadt Weimar", "Vinaria" ],
+  "sameAs" : [ {
+    "id" : "http://id.loc.gov/rwo/agents/n81042181",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q13219454",
+      "abbr" : "LC",
+      "publisher" : "Library of Congress",
+      "icon" : "http://www.loc.gov/favicon.ico",
+      "name" : "NACO Authority File"
+    }
+  }, {
+    "id" : "http://viaf.org/viaf/136822898",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q54919",
+      "abbr" : "VIAF",
+      "publisher" : "OCLC",
+      "icon" : "http://viaf.org/viaf/images/viaf.ico",
+      "name" : "Virtual International Authority File (VIAF)"
+    }
+  }, {
+    "id" : "http://www.wikidata.org/entity/Q3955",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q2013",
+      "abbr" : "WIKIDATA",
+      "publisher" : "Wikimedia Foundation Inc.",
+      "icon" : "https://www.wikidata.org/static/favicon/wikidata.ico",
+      "name" : "Wikidata"
+    }
+  }, {
+    "id" : "https://d-nb.info/gnd/2027981-4",
+    "collection" : {
+      "id" : "http://www.wikidata.org/entity/Q36578",
+      "abbr" : "DNB",
+      "publisher" : "Deutsche Nationalbibliothek",
+      "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+      "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek"
+    }
+  }, {
+    "collection" : {
+      "abbr" : "DNB",
+      "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+      "publisher" : "Deutsche Nationalbibliothek",
+      "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+      "id" : "http://www.wikidata.org/entity/Q36578"
+    },
+    "id" : "https://d-nb.info/gnd/4065105-8/about"
+  }, {
+    "collection" : {
+      "abbr" : "dewiki",
+      "name" : "Wikipedia (Deutsch)",
+      "publisher" : "Wikimedia Foundation Inc.",
+      "icon" : "https://de.wikipedia.org/static/favicon/wikipedia.ico",
+      "id" : "http://www.wikidata.org/entity/Q48183"
+    },
+    "id" : "https://de.wikipedia.org/wiki/Weimar"
+  }, {
+    "collection" : {
+      "abbr" : "WIKISOURCE",
+      "name" : "Wikisource",
+      "publisher" : "Wikimedia Foundation Inc.",
+      "icon" : "https://wikisource.org/static/favicon/wikisource.ico",
+      "id" : "http://www.wikidata.org/entity/Q263"
+    },
+    "id" : "https://de.wikisource.org/wiki/Weimar"
+  }, {
+    "collection" : {
+      "abbr" : "enwiki",
+      "name" : "Wikipedia (English)",
+      "publisher" : "Wikimedia Foundation Inc.",
+      "icon" : "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+      "id" : "http://www.wikidata.org/entity/Q328"
+    },
+    "id" : "https://en.wikipedia.org/wiki/Weimar"
+  }, {
+    "id" : "https://sws.geonames.org/2812482",
+    "collection" : {
+      "id" : "https://sws.geonames.org"
+    }
+  } ],
+  "depiction" : [ {
+    "id" : "https://commons.wikimedia.org/wiki/Special:FilePath/Stadtansicht%20Weimar%20mit%20Schloss%20und%20Herderkirche.jpg",
+    "url" : "https://commons.wikimedia.org/wiki/File:Stadtansicht%20Weimar%20mit%20Schloss%20und%20Herderkirche.jpg?uselang=de",
+    "thumbnail" : "https://commons.wikimedia.org/wiki/Special:FilePath/Stadtansicht%20Weimar%20mit%20Schloss%20und%20Herderkirche.jpg?width=270"
+  } ]
+}
