@@ -1,4 +1,3 @@
-
 package com.datazuul.lobid.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;

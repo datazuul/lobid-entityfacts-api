@@ -66,6 +66,8 @@ class LobidObjectMapperTest {
         LobidPerson lobidPerson = LOBID_OBJECT_MAPPER.readValue(url, LobidPerson.class);
         assertNotNull(lobidPerson);
         assertEquals("Goethe, Johann Wolfgang von", lobidPerson.getPreferredName());
+        
+        assertEquals("https://d-nb.info/standards/vocab/gnd/gender#male", lobidPerson.getGender().get(0).getId());
     }
 
     @Test
