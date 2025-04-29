@@ -2,6 +2,7 @@ package com.datazuul.lobid;
 
 import com.datazuul.lobid.model.*;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -28,6 +29,7 @@ class LobidObjectMapperTest {
         assertEquals("Bibliographisches Institut (Leipzig)", lobidCorporateBody.getPreferredName());
     }
 
+    @Disabled
     @Test
     void testLobidCorporateBodyDeserializationFromRemoteUrl() throws IOException {
         URL url = URI.create("https://lobid.org/gnd/2004604-2.json").toURL();
