@@ -86,4 +86,12 @@ class LobidObjectMapperTest {
         assertEquals("Faust, 1, 1770-1850", lobidWork.getPreferredName());
     }
 
+    @Test
+    void testLobidSearchPersonsDeserialization() throws URISyntaxException, IOException {
+        URL url = getClass().getClassLoader().getResource("examples/LobidSearchPersons.json").toURI().toURL();
+        LobidSearchPersons lobidSearchPersons = LOBID_OBJECT_MAPPER.readValue(url, LobidSearchPersons.class);
+        assertNotNull(lobidSearchPersons);
+        assertEquals("Eichinger, Franz", lobidSearchPersons.getMember().get(0).getPreferredName());
+    }
+
 }
