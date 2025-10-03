@@ -1,6 +1,14 @@
 package com.datazuul.lobid;
 
-import com.datazuul.lobid.model.*;
+import com.datazuul.lobid.model.LobidCorporateBody;
+import com.datazuul.lobid.model.LobidEvent;
+import com.datazuul.lobid.model.LobidFamily;
+import com.datazuul.lobid.model.LobidHeadword;
+import com.datazuul.lobid.model.LobidOrganisation;
+import com.datazuul.lobid.model.LobidPerson;
+import com.datazuul.lobid.model.LobidPlace;
+import com.datazuul.lobid.model.LobidSearchPersons;
+import com.datazuul.lobid.model.LobidWork;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -63,12 +71,20 @@ class LobidObjectMapperTest {
     }
 
     @Test
+    void testLobidOrganisationDeserialization() throws URISyntaxException, IOException {
+        URL url = getClass().getClassLoader().getResource("examples/LobidOrganisation-Alexana.json").toURI().toURL();
+        LobidOrganisation lobidOrganisation = LOBID_OBJECT_MAPPER.readValue(url, LobidOrganisation.class);
+        assertNotNull(lobidOrganisation);
+        assertEquals("Bibliothek Alexana", lobidOrganisation.getName());
+    }
+
+    @Test
     void testLobidPersonDeserialization() throws URISyntaxException, IOException {
         URL url = getClass().getClassLoader().getResource("examples/LobidPerson.json").toURI().toURL();
         LobidPerson lobidPerson = LOBID_OBJECT_MAPPER.readValue(url, LobidPerson.class);
         assertNotNull(lobidPerson);
         assertEquals("Goethe, Johann Wolfgang von", lobidPerson.getPreferredName());
-        
+
         assertEquals("https://d-nb.info/standards/vocab/gnd/gender#male", lobidPerson.getGender().get(0).getId());
     }
 

@@ -1,0 +1,78 @@
+{
+  "rs" : "091620000000",
+  "note" : [ "Der Alexandria Verlag bringt schriftliches kulturell wertvolles Erbe in das digitale Zeitalter und ermöglicht ortsunabhängigen Zugriff. In der zugehörigen Bibliothek \"Alexana\" werden die Buch-Bestände des Verlages verwaltet und urheberrechtfreies Material digitalisiert und öffentlich zugänglich gemacht." ],
+  "availableChannel" : [ {
+    "type" : [ "ServiceChannel" ],
+    "serviceType" : "Alexandria Verlag",
+    "serviceUrl" : "https://alexandria-verlag.de/"
+  } ],
+  "alternateName" : [ "Alexandria Verlag, Bibliothek" ],
+  "type" : "Publisher",
+  "classification" : {
+    "id" : "http://purl.org/lobid/libtype#n87",
+    "type" : "Concept",
+    "label" : {
+      "de" : "Verlag",
+      "en" : "Publisher"
+    }
+  },
+  "mainEntityOfPage" : {
+    "id" : "http://lobid.org/organisations/DE-4397#!",
+    "dateCreated" : "20-12-24",
+    "dateModified" : "20-12-24",
+    "wasGeneratedBy" : {
+      "type" : "Activity",
+      "used" : [ {
+        "id" : "http://services.dnb.de/sru/bib?operation=searchRetrieve&query=isl%3DDE-4397&recordSchema=PicaPlus-xml&version=1.1",
+        "sourceOrganization" : {
+          "id" : "https://sigel.staatsbibliothek-berlin.de/vergabe/isil/",
+          "label" : "Deutsche ISIL-Agentur und Sigelstelle an der Staatsbibliothek zu Berlin"
+        }
+      } ]
+    }
+  },
+  "@context" : "http://lobid.org/organisations/context.jsonld",
+  "url" : "https://alexana.org/",
+  "picaPPN" : "1351689339",
+  "name" : "Bibliothek Alexana",
+  "location" : [ {
+    "address" : {
+      "streetAddress" : "Georg-Lindau-Str. 5",
+      "addressLocality" : "München",
+      "postalCode" : "80634",
+      "addressCountry" : "DE",
+      "type" : "PostalAddress"
+    },
+    "geo" : {
+      "lat" : "48.14788",
+      "lon" : "11.52569"
+    },
+    "type" : "Place"
+  } ],
+  "id" : "http://lobid.org/organisations/DE-4397#!",
+  "isil" : "DE-4397",
+  "fundertype" : {
+    "id" : "http://purl.org/lobid/fundertype#n12",
+    "type" : "Concept",
+    "label" : {
+      "de" : "Private Trägerschaft (natürliche Personen)",
+      "en" : "Private Funding Body (Natural Person)"
+    }
+  },
+  "sigel" : "DE-4397",
+  "collects" : {
+    "type" : "Collection",
+    "extent" : {
+      "id" : "http://purl.org/lobid/stocksize#n01",
+      "type" : "Concept",
+      "label" : {
+        "de" : "bis 1.000",
+        "en" : "up to 1,000"
+      }
+    },
+    "subject" : [ "Konversations-Lexika", "Sachliteratur" ]
+  },
+  "email" : "mailto:info@alexana.org",
+  "name_en" : "Alexana Library",
+  "sameAs" : [ "https://ld.zdb-services.de/resource/organisations/DE-4397" ]
+}
