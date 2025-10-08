@@ -1,0 +1,972 @@
+{
+  "@context" : "https://lobid.org/gnd/context.jsonld",
+  "id" : "https://lobid.org/gnd/search?q=preferredName%3ABrockhaus&filter=type%3ACorporateBody&format=json",
+  "totalItems" : 58,
+  "member" : [ {
+    "type" : [ "CorporateBody", "AuthorityResource", "Company" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DXDE",
+      "label" : "Deutschland, Deutsches Reich"
+    }, {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-SN",
+      "label" : "Sachsen"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4035206-7",
+      "label" : "Leipzig"
+    } ],
+    "biographicalOrHistoricalInformation" : [ "Besitzer: Carl Geibel und Dr. jur. Arnold Brockhaus" ],
+    "dateOfEstablishment" : [ "1891" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#3",
+        "label" : "Katalogisierungslevel 3"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101d",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101d"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2023-02-28T05:30:58.000",
+      "id" : "https://d-nb.info/gnd/1281971820/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4008626-4",
+      "label" : "Buchhandel"
+    }, {
+      "id" : "https://d-nb.info/gnd/4063004-3",
+      "label" : "Verlag"
+    } ],
+    "gndIdentifier" : "1281971820",
+    "id" : "https://d-nb.info/gnd/1281971820",
+    "preferredName" : "Geibel & Brockhaus",
+    "spatialAreaOfActivity" : [ {
+      "id" : "https://d-nb.info/gnd/4051176-5",
+      "label" : "Sachsen"
+    } ],
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/4585167807288818130008",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/1281971820/about"
+    } ]
+  }, {
+    "type" : [ "Company", "AuthorityResource", "CorporateBody" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "dateOfTermination" : [ "2001" ],
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#31.4",
+      "label" : "Bergbau, Hüttentechnik"
+    }, {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#31.8a",
+      "label" : "Fertigungstechnik"
+    }, {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12b",
+      "label" : "Einzelne Branchen der Industrie und des Handwerks"
+    } ],
+    "oldAuthorityNumber" : [ "(DE-588b)2110736-1" ],
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE",
+      "label" : "Deutschland"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4046364-3",
+      "label" : "Plettenberg"
+    } ],
+    "biographicalOrHistoricalInformation" : [ "Vorgänger 1864 als \"Friedrich Brockhaus\" gegründet, danach mehrfach umbenannt und verzweigt, bis sich 1924 die Werke Wiesenthal und Oesterau zur „Brockhaus Söhne oHG\" (später \"Brockhaus Söhne GmbH & Co. KG\") vereinigten. Nachfolger ab 2002 die Brockhaus-Unternehmensgruppe mit den Sparten Stahl, Umwelt und Messtechnik" ],
+    "dateOfEstablishment" : [ "1924" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+        "label" : "Katalogisierungslevel 1"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2022-05-04T13:22:01.000",
+      "id" : "https://d-nb.info/gnd/2110736-1/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4038888-8",
+      "label" : "Metallindustrie"
+    } ],
+    "gndIdentifier" : "2110736-1",
+    "id" : "https://d-nb.info/gnd/2110736-1",
+    "preferredName" : "Brockhaus Söhne",
+    "spatialAreaOfActivity" : [ {
+      "id" : "https://d-nb.info/gnd/4042570-8",
+      "label" : "Nordrhein-Westfalen"
+    } ],
+    "variantName" : [ "Brockhaus Söhne oHG", "Vereinigte Werke Brockhaus Söhne", "Werke Brockhaus Söhne", "Brockhaus Söhne GmbH & Co. KG" ],
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/141404498",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/2110736-1/about"
+    } ]
+  }, {
+    "type" : [ "AuthorityResource", "CorporateBody", "Company" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12b",
+      "label" : "Einzelne Branchen der Industrie und des Handwerks"
+    }, {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "label" : "Buchwissenschaft, Buchhandel"
+    } ],
+    "oldAuthorityNumber" : [ "(DE-588b)5098669-7", "(DE-588c)4372031-6", "(DE-588)4372031-6", "(DE-588b)31466-3", "(DE-588)1086835867", "(DE-588)31466-3" ],
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-BW",
+      "label" : "Baden-Württemberg"
+    } ],
+    "deprecatedUri" : [ "https://d-nb.info/gnd/1086835867", "https://d-nb.info/gnd/4372031-6", "https://d-nb.info/gnd/31466-3" ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4058282-6",
+      "label" : "Stuttgart"
+    }, {
+      "id" : "https://d-nb.info/gnd/4032499-0",
+      "label" : "Kornwestheim"
+    } ],
+    "precedingCorporateBody" : [ {
+      "id" : "https://d-nb.info/gnd/5098656-9",
+      "label" : "F.-A.-Brockhaus-Kommissions-Geschäft"
+    } ],
+    "dateOfEstablishment" : [ "1968" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+        "label" : "Katalogisierungslevel 1"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2016-04-20T00:51:09.000",
+      "id" : "https://d-nb.info/gnd/5098669-7/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4063004-3",
+      "label" : "Verlag"
+    } ],
+    "gndIdentifier" : "5098669-7",
+    "id" : "https://d-nb.info/gnd/5098669-7",
+    "preferredName" : "Brockhaus (Firma)",
+    "spatialAreaOfActivity" : [ {
+      "id" : "https://d-nb.info/gnd/4004176-1",
+      "label" : "Baden-Württemberg"
+    } ],
+    "variantName" : [ "F.-A.-Brockhaus-Kommandit-Geschäft", "Brockhaus Exportbuchhandlung und Antiquarium", "Brockhaus Stuttgart, Export-Buchhandlung und Antiquarium", "Brockhaus-Export-Buchhandlung und Antiquarium", "F.A. Brockhaus Exportbuchhandlung und Antiquarium" ],
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/315941910",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086835867",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/31466-3",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/4372031-6",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/5098669-7/about"
+    } ]
+  }, {
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GB",
+      "label" : "Großbritannien"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4074335-4",
+      "label" : "London"
+    } ],
+    "biographicalOrHistoricalInformation" : [ "Gesamtprokurist: Krüger, Otto Friedrich Wilhelm [-1911-] (Id: p574) (12.03.1911-). - Quelle: B1667a", "Hauptgeschäft: F. A. Brockhaus <Leipzig> (65191-6) (1895). - Quelle: B1664a", "Gesamtprokurist: Schumann, Paul Julius [-1905-] (Id: p812) (15.10.1905-). - Quelle: B1666a", "Gesamtprokurist: Edlinger, Ludwig Julius Albin [-1905-] (Id: p283) (15.10.1905-). - Quelle: B1666a", "Gesamtprokurist: Hellmund, Albert Max [-1905-] (Id: p453) (15.10.1905-). - Quelle: B1666a", "Gesamtprokurist: Haufe, Heinrich Otto [-1905-] (Id: p444) (15.10.1905-). - Quelle: B1666a" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#6",
+        "label" : "Katalogisierungslevel 6"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101d",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101d"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2016-08-04T17:08:35.000",
+      "id" : "https://d-nb.info/gnd/1072956535/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4154341-5",
+      "label" : "Filiale"
+    } ],
+    "gndIdentifier" : "1072956535",
+    "id" : "https://d-nb.info/gnd/1072956535",
+    "preferredName" : "F. A. Brockhaus (London)",
+    "type" : [ "AuthorityResource", "CorporateBody" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/13146937732113830533",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/1072956535/about"
+    }, {
+      "collection" : {
+        "name" : "Kalliope Verbundkatalog",
+        "icon" : "https://kalliope-verbund.info/img/favicon.ico",
+        "publisher" : "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+        "id" : "https://kalliope-verbund.info",
+        "abbr" : "DE-611"
+      },
+      "id" : "https://kalliope-verbund.info/gnd/1072956535"
+    }, {
+      "collection" : {
+        "name" : "Deutsche Digitale Bibliothek",
+        "icon" : "https://www.deutsche-digitale-bibliothek.de/favicon.ico",
+        "publisher" : "Deutsche Digitale Bibliothek",
+        "id" : "http://www.wikidata.org/entity/Q621630",
+        "abbr" : "DDB"
+      },
+      "id" : "https://www.deutsche-digitale-bibliothek.de/organization/gnd/1072956535"
+    } ]
+  }, {
+    "type" : [ "AuthorityResource", "CorporateBody" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "dateOfTermination" : [ "1984" ],
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "label" : "Buchwissenschaft, Buchhandel"
+    } ],
+    "oldAuthorityNumber" : [ "(DE-588)4008319-6", "(DE-588)1086196120", "(DE-588)1086690796", "(DE-588)16306217-1", "(DE-588)1086443047", "(DE-588b)16306217-1", "(DE-588c)4008319-6", "(DE-588b)2010084-X" ],
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-HE",
+      "label" : "Hessen"
+    } ],
+    "deprecatedUri" : [ "https://d-nb.info/gnd/1086690796", "https://d-nb.info/gnd/4008319-6", "https://d-nb.info/gnd/1086196120", "https://d-nb.info/gnd/16306217-1", "https://d-nb.info/gnd/1086443047" ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4066043-6",
+      "label" : "Wiesbaden"
+    } ],
+    "succeedingCorporateBody" : [ {
+      "id" : "https://d-nb.info/gnd/4838361-2",
+      "label" : "Bibliographisches Institut & F. A. Brockhaus AG"
+    } ],
+    "precedingCorporateBody" : [ {
+      "id" : "https://d-nb.info/gnd/65191-6",
+      "label" : "F. A. Brockhaus (Leipzig)"
+    } ],
+    "dateOfEstablishment" : [ "1945" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+        "label" : "Katalogisierungslevel 1"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2025-04-02T00:30:53.000",
+      "id" : "https://d-nb.info/gnd/2010084-X/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4063004-3",
+      "label" : "Verlag"
+    } ],
+    "gndIdentifier" : "2010084-X",
+    "id" : "https://d-nb.info/gnd/2010084-X",
+    "preferredName" : "F. A. Brockhaus (Wiesbaden)",
+    "spatialAreaOfActivity" : [ {
+      "id" : "https://d-nb.info/gnd/4024729-6",
+      "label" : "Hessen"
+    } ],
+    "variantName" : [ "Verlag F. A. Brockhaus (Wiesbaden)", "Brockhaus (Wiesbaden)" ],
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/10147095067825081695",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "id" : "http://www.wikidata.org/entity/Q19446818",
+      "collection" : {
+        "icon" : "https://www.wikidata.org/static/favicon/wikidata.ico",
+        "name" : "Wikidata",
+        "publisher" : "Wikimedia Foundation Inc.",
+        "id" : "http://www.wikidata.org/entity/Q2013",
+        "abbr" : "WIKIDATA"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086196120",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086443047",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086690796",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/16306217-1",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/2010084-X/about"
+    }, {
+      "id" : "https://d-nb.info/gnd/4008319-6",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "collection" : {
+        "name" : "Kalliope Verbundkatalog",
+        "icon" : "https://kalliope-verbund.info/img/favicon.ico",
+        "publisher" : "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+        "id" : "https://kalliope-verbund.info",
+        "abbr" : "DE-611"
+      },
+      "id" : "https://kalliope-verbund.info/gnd/2010084-X"
+    }, {
+      "collection" : {
+        "name" : "Deutsche Digitale Bibliothek",
+        "icon" : "https://www.deutsche-digitale-bibliothek.de/favicon.ico",
+        "publisher" : "Deutsche Digitale Bibliothek",
+        "id" : "http://www.wikidata.org/entity/Q621630",
+        "abbr" : "DDB"
+      },
+      "id" : "https://www.deutsche-digitale-bibliothek.de/organization/gnd/2010084-X"
+    } ],
+    "depiction" : [ {
+      "thumbnail" : "https://commons.wikimedia.org/wiki/Special:FilePath/Brockhaus.svg?width=270",
+      "id" : "https://commons.wikimedia.org/wiki/Special:FilePath/Brockhaus.svg",
+      "url" : "https://commons.wikimedia.org/wiki/File:Brockhaus.svg?uselang=de"
+    } ]
+  }, {
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-BY",
+      "label" : "Bayern"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4127793-4",
+      "label" : "München"
+    } ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+        "label" : "Katalogisierungslevel 1"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/AT-NOELB",
+        "label" : "https://ld.zdb-services.de/resource/organisations/AT-NOELB"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2019-01-07T09:55:16.000",
+      "id" : "https://d-nb.info/gnd/1174818255/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/AT-NOELB",
+        "label" : "https://ld.zdb-services.de/resource/organisations/AT-NOELB"
+      }
+    },
+    "gndIdentifier" : "1174818255",
+    "id" : "https://d-nb.info/gnd/1174818255",
+    "preferredName" : "NE GmbH - Brockhaus",
+    "type" : [ "AuthorityResource", "CorporateBody", "Company" ],
+    "variantName" : [ "Brockhaus - NE GmbH", "NE GmbH" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/1321154741632053110004",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/1174818255/about"
+    } ]
+  }, {
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-NW",
+      "label" : "Nordrhein-Westfalen"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4132018-9",
+      "label" : "Gütersloh"
+    } ],
+    "biographicalOrHistoricalInformation" : [ "in der inmediaONE] GmbH" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#6",
+        "label" : "Katalogisierungslevel 6"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2022-07-07T17:11:25.000",
+      "id" : "https://d-nb.info/gnd/1065432518/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      }
+    },
+    "gndIdentifier" : "1065432518",
+    "id" : "https://d-nb.info/gnd/1065432518",
+    "preferredName" : "Brockhaus, F. A.",
+    "type" : [ "CorporateBody", "AuthorityResource" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "label" : "Buchwissenschaft, Buchhandel"
+    } ],
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/168628660",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/1065432518/about"
+    } ]
+  }, {
+    "languageCode" : [ {
+      "id" : "http://id.loc.gov/vocabulary/iso639-2/ger",
+      "label" : "http://id.loc.gov/vocabulary/iso639-2/ger"
+    } ],
+    "type" : [ "CorporateBody", "Company", "AuthorityResource" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "label" : "Buchwissenschaft, Buchhandel"
+    } ],
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE",
+      "label" : "Deutschland"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4032499-0",
+      "label" : "Kornwestheim"
+    } ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#3",
+        "label" : "Katalogisierungslevel 3"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2025-01-23T05:35:19.000",
+      "id" : "https://d-nb.info/gnd/106578385X/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4008626-4",
+      "label" : "Buchhandel"
+    } ],
+    "gndIdentifier" : "106578385X",
+    "id" : "https://d-nb.info/gnd/106578385X",
+    "preferredName" : "Brockhaus Kommissionsgeschäft GmbH",
+    "variantName" : [ "Brockhaus / Commission", "BroCom", "Brockhaus/Commission" ],
+    "sameAs" : [ {
+      "id" : "http://viaf.org/viaf/313454201",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/106578385X/about"
+    } ]
+  }, {
+    "type" : [ "CorporateBody", "AuthorityResource" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "dateOfTermination" : [ "1994" ],
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "label" : "Buchwissenschaft, Buchhandel"
+    } ],
+    "oldAuthorityNumber" : [ "(DE-588c)4019572-7" ],
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-SN",
+      "label" : "Sachsen"
+    } ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4035206-7",
+      "label" : "Leipzig"
+    } ],
+    "succeedingCorporateBody" : [ {
+      "id" : "https://d-nb.info/gnd/4838361-2",
+      "label" : "Bibliographisches Institut & F. A. Brockhaus AG"
+    } ],
+    "dateOfEstablishment" : [ "1945" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+        "label" : "Katalogisierungslevel 1"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2023-07-26T13:35:26.000",
+      "id" : "https://d-nb.info/gnd/4019572-7/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-101",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-101"
+      }
+    },
+    "broaderTermInstantial" : [ {
+      "id" : "https://d-nb.info/gnd/4063004-3",
+      "label" : "Verlag"
+    } ],
+    "gndIdentifier" : "4019572-7",
+    "id" : "https://d-nb.info/gnd/4019572-7",
+    "preferredName" : "F. A. Brockhaus (Leipzig)",
+    "spatialAreaOfActivity" : [ {
+      "id" : "https://d-nb.info/gnd/4051176-5",
+      "label" : "Sachsen"
+    } ],
+    "variantName" : [ "F. A. Brockhaus", "Brockhaus (Firma)", "VEB F. A. Brockhaus" ],
+    "sameAs" : [ {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/4019572-7/about"
+    }, {
+      "collection" : {
+        "name" : "Deutsche Digitale Bibliothek",
+        "icon" : "https://www.deutsche-digitale-bibliothek.de/favicon.ico",
+        "publisher" : "Deutsche Digitale Bibliothek",
+        "id" : "http://www.wikidata.org/entity/Q621630",
+        "abbr" : "DDB"
+      },
+      "id" : "https://www.deutsche-digitale-bibliothek.de/organization/gnd/4019572-7"
+    } ]
+  }, {
+    "type" : [ "AuthorityResource", "CorporateBody" ],
+    "@context" : "https://lobid.org/gnd/context.jsonld",
+    "gndSubjectCategory" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12b",
+      "label" : "Einzelne Branchen der Industrie und des Handwerks"
+    }, {
+      "id" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "label" : "Buchwissenschaft, Buchhandel"
+    } ],
+    "oldAuthorityNumber" : [ "(DE-588)1086505956", "(DE-588b)5109509-9", "(DE-588)5109507-5", "(DE-588)1086883071", "(DE-588b)5109507-5", "(DE-588)1086133773" ],
+    "geographicAreaCode" : [ {
+      "id" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-BW",
+      "label" : "Baden-Württemberg"
+    } ],
+    "deprecatedUri" : [ "https://d-nb.info/gnd/1086133773", "https://d-nb.info/gnd/5109507-5", "https://d-nb.info/gnd/1086505956", "https://d-nb.info/gnd/1086883071" ],
+    "placeOfBusiness" : [ {
+      "id" : "https://d-nb.info/gnd/4037372-1",
+      "label" : "Mannheim"
+    }, {
+      "id" : "https://d-nb.info/gnd/4035206-7",
+      "label" : "Leipzig"
+    } ],
+    "succeedingCorporateBody" : [ {
+      "id" : "https://d-nb.info/gnd/102283293X",
+      "label" : "Verlag F. A. Brockhaus/wissenmedia in der inmediaONE]"
+    } ],
+    "biographicalOrHistoricalInformation" : [ "Unternehmensbereich von \"Bibliographisches Institut und F. A. Brockhaus AG Mannheim\"" ],
+    "dateOfEstablishment" : [ "15.10.1805" ],
+    "describedBy" : {
+      "descriptionLevel" : {
+        "id" : "https://d-nb.info/standards/vocab/gnd/description-level#1",
+        "label" : "Katalogisierungslevel 1"
+      },
+      "dctCreator" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      },
+      "license" : {
+        "id" : "http://creativecommons.org/publicdomain/zero/1.0/",
+        "label" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "dateModified" : "2024-11-04T09:56:53.000",
+      "id" : "https://d-nb.info/gnd/5109509-9/about",
+      "maintainer" : {
+        "id" : "https://ld.zdb-services.de/resource/organisations/DE-1",
+        "label" : "https://ld.zdb-services.de/resource/organisations/DE-1"
+      }
+    },
+    "gndIdentifier" : "5109509-9",
+    "id" : "https://d-nb.info/gnd/5109509-9",
+    "preferredName" : "F. A. Brockhaus GmbH",
+    "variantName" : [ "Brockhaus GmbH" ],
+    "sameAs" : [ {
+      "collection" : {
+        "name" : "Bibliothèque nationale de France",
+        "icon" : "https://www.bnf.fr/themes/custom/bnfsi/favicon.ico",
+        "publisher" : "Bibliothèque nationale de France",
+        "id" : "http://www.wikidata.org/entity/Q19938912",
+        "abbr" : "BNF"
+      },
+      "id" : "http://catalogue.bnf.fr/ark:/12148/cb122529521"
+    }, {
+      "id" : "http://id.loc.gov/rwo/agents/n98090736",
+      "collection" : {
+        "icon" : "http://www.loc.gov/favicon.ico",
+        "name" : "NACO Authority File",
+        "publisher" : "Library of Congress",
+        "id" : "http://www.wikidata.org/entity/Q13219454",
+        "abbr" : "LC"
+      }
+    }, {
+      "id" : "http://viaf.org/viaf/2797148947757454950006",
+      "collection" : {
+        "icon" : "http://viaf.org/viaf/images/viaf.ico",
+        "name" : "Virtual International Authority File (VIAF)",
+        "publisher" : "OCLC",
+        "id" : "http://www.wikidata.org/entity/Q54919",
+        "abbr" : "VIAF"
+      }
+    }, {
+      "id" : "http://www.wikidata.org/entity/Q19446818",
+      "collection" : {
+        "icon" : "https://www.wikidata.org/static/favicon/wikidata.ico",
+        "name" : "Wikidata",
+        "publisher" : "Wikimedia Foundation Inc.",
+        "id" : "http://www.wikidata.org/entity/Q2013",
+        "abbr" : "WIKIDATA"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086133773",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086505956",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/1086883071",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "id" : "https://d-nb.info/gnd/5109507-5",
+      "collection" : {
+        "icon" : "http://www.dnb.de/SiteGlobals/StyleBundles/Bilder/favicon.png?__blob=normal&v=1",
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      }
+    }, {
+      "collection" : {
+        "name" : "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek",
+        "icon" : "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4",
+        "publisher" : "Deutsche Nationalbibliothek",
+        "id" : "http://www.wikidata.org/entity/Q36578",
+        "abbr" : "DNB"
+      },
+      "id" : "https://d-nb.info/gnd/5109509-9/about"
+    }, {
+      "id" : "https://isni.org/isni/0000000123646144",
+      "collection" : {
+        "id" : "https://isni.org"
+      }
+    } ],
+    "depiction" : [ {
+      "thumbnail" : "https://commons.wikimedia.org/wiki/Special:FilePath/Brockhaus.svg?width=270",
+      "id" : "https://commons.wikimedia.org/wiki/Special:FilePath/Brockhaus.svg",
+      "url" : "https://commons.wikimedia.org/wiki/File:Brockhaus.svg?uselang=de"
+    } ]
+  } ],
+  "aggregation" : {
+    "gndSubjectCategory.id" : [ {
+      "key" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2",
+      "doc_count" : 16
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12b",
+      "doc_count" : 10
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#14.1",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#31.4",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#31.8a",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/gnd-sc#6.8",
+      "doc_count" : 1
+    } ],
+    "professionOrOccupation.id" : [ ],
+    "geographicAreaCode.id" : [ {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE",
+      "doc_count" : 17
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-SN",
+      "doc_count" : 10
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-BW",
+      "doc_count" : 9
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DXDE",
+      "doc_count" : 6
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-NW",
+      "doc_count" : 5
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR",
+      "doc_count" : 3
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#ZZ",
+      "doc_count" : 3
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-BY",
+      "doc_count" : 2
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-HE",
+      "doc_count" : 2
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GB",
+      "doc_count" : 2
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT-5",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT-9",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-CH",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DDDE",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-BE",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-RP",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-SH",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE-TH",
+      "doc_count" : 1
+    }, {
+      "key" : "https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-PT",
+      "doc_count" : 1
+    } ],
+    "dateOfBirth" : [ ],
+    "type" : [ {
+      "key" : "CorporateBody",
+      "doc_count" : 58
+    }, {
+      "key" : "Company",
+      "doc_count" : 15
+    } ]
+  }
+}
