@@ -37,7 +37,7 @@ import java.util.Map;
         "sameAs"
 })
 @Generated("jsonschema2pojo")
-public class LobidOrganisation {
+public class LobidOrganisation extends LobidEntity {
 
     @JsonProperty("rs")
     private String rs;
@@ -120,16 +120,6 @@ public class LobidOrganisation {
     @JsonProperty("alternateName")
     public void setAlternateName(List<String> alternateName) {
         this.alternateName = alternateName;
-    }
-
-    @JsonProperty("type")
-    public String getType() {
-        return type;
-    }
-
-    @JsonProperty("type")
-    public void setType(String type) {
-        this.type = type;
     }
 
     @JsonProperty("classification")
@@ -270,16 +260,6 @@ public class LobidOrganisation {
     @JsonProperty("name_en")
     public void setNameEn(String nameEn) {
         this.nameEn = nameEn;
-    }
-
-    @JsonProperty("sameAs")
-    public List<String> getSameAs() {
-        return sameAs;
-    }
-
-    @JsonProperty("sameAs")
-    public void setSameAs(List<String> sameAs) {
-        this.sameAs = sameAs;
     }
 
     @JsonAnyGetter
