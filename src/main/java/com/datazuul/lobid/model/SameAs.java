@@ -26,6 +26,19 @@ public class SameAs {
     @JsonIgnore
     private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
+    public SameAs(String id) {
+        this.id = id;
+    }
+    
+    public SameAs(String id, Collection collection) {
+        this.id = id;
+        this.collection = collection;
+    }
+    
+    public SameAs() {
+        
+    }
+    
     @JsonProperty("id")
     public String getId() {
         return id;

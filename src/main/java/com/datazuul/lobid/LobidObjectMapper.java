@@ -13,6 +13,9 @@ public class LobidObjectMapper extends ObjectMapper {
     disable(SerializationFeature.FAIL_ON_UNWRAPPED_TYPE_IDENTIFIERS);
     disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 
+    // for single value in "type"
+    enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
+
     disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
     // Don't include null properties

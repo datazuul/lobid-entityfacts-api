@@ -1,17 +1,11 @@
 package com.datazuul.lobid.model;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-
-import javax.annotation.processing.Generated;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
+import javax.annotation.processing.Generated;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
@@ -47,14 +41,10 @@ public class LobidOrganisation extends LobidEntity {
     private List<AvailableChannel> availableChannel = new ArrayList<AvailableChannel>();
     @JsonProperty("alternateName")
     private List<String> alternateName = new ArrayList<String>();
-    @JsonProperty("type")
-    private String type;
     @JsonProperty("classification")
     private Classification classification;
     @JsonProperty("mainEntityOfPage")
     private MainEntityOfPage mainEntityOfPage;
-    @JsonProperty("@context")
-    private String context;
     @JsonProperty("url")
     private String url;
     @JsonProperty("picaPPN")
@@ -77,10 +67,6 @@ public class LobidOrganisation extends LobidEntity {
     private String email;
     @JsonProperty("name_en")
     private String nameEn;
-    @JsonProperty("sameAs")
-    private List<String> sameAs = new ArrayList<String>();
-    @JsonIgnore
-    private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
     @JsonProperty("rs")
     public String getRs() {
@@ -142,16 +128,6 @@ public class LobidOrganisation extends LobidEntity {
         this.mainEntityOfPage = mainEntityOfPage;
     }
 
-    @JsonProperty("@context")
-    public String getContext() {
-        return context;
-    }
-
-    @JsonProperty("@context")
-    public void setContext(String context) {
-        this.context = context;
-    }
-
     @JsonProperty("url")
     public String getUrl() {
         return url;
@@ -190,16 +166,6 @@ public class LobidOrganisation extends LobidEntity {
     @JsonProperty("location")
     public void setLocation(List<Location> location) {
         this.location = location;
-    }
-
-    @JsonProperty("id")
-    public String getId() {
-        return id;
-    }
-
-    @JsonProperty("id")
-    public void setId(String id) {
-        this.id = id;
     }
 
     @JsonProperty("isil")
@@ -260,16 +226,6 @@ public class LobidOrganisation extends LobidEntity {
     @JsonProperty("name_en")
     public void setNameEn(String nameEn) {
         this.nameEn = nameEn;
-    }
-
-    @JsonAnyGetter
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
-
-    @JsonAnySetter
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
     }
 
     @Override
