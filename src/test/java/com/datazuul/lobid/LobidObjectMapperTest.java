@@ -19,7 +19,9 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class LobidObjectMapperTest {
     private static LobidObjectMapper LOBID_OBJECT_MAPPER;
@@ -72,11 +74,40 @@ class LobidObjectMapperTest {
 
     @Test
     void testLobidOrganisationDeserialization() throws URISyntaxException, IOException {
-        URL url = getClass().getClassLoader().getResource("examples/LobidOrganisation-Alexana.json").toURI().toURL();
+        URL url = getClass().getClassLoader()
+                .getResource("examples/LobidOrganisation-Alexana.json")
+                .toURI().toURL();
         LobidOrganisation lobidOrganisation = LOBID_OBJECT_MAPPER.readValue(url, LobidOrganisation.class);
         assertNotNull(lobidOrganisation);
+
+        // vorhandener Test
         assertEquals("Bibliothek Alexana", lobidOrganisation.getName());
+
+        // weitere Felder
+        assertNotNull(lobidOrganisation.getId());
+        assertTrue(lobidOrganisation.getId().startsWith("http://"), "Id sollte eine URL sein");
+
+        // Typ(en)
+        assertNotNull(lobidOrganisation.getType());
+        assertFalse(lobidOrganisation.getType().isEmpty(), "Typ-Liste darf nicht leer sein");
+
+        // Geo/Location (falls vorhanden)
+        if (lobidOrganisation.getLocation() != null && !lobidOrganisation.getLocation().isEmpty()) {
+            var firstLocation = lobidOrganisation.getLocation().get(0);
+            assertNotNull(firstLocation.getGeo());
+            assertNotNull(firstLocation.getGeo().getLat());
+            assertNotNull(firstLocation.getGeo().getLon());
+        }
+
+        // sameAs Links (falls vorhanden) / see @JsonIgnore in LobidOrganisation
+        /*
+        if (lobidOrganisation.getSameAs() != null) {
+            assertFalse(lobidOrganisation.getSameAs().isEmpty());
+            assertTrue(lobidOrganisation.getSameAs().get(0).startsWith("http"));
+        }
+         */
     }
+
 
     @Test
     void testLobidPersonDeserialization() throws URISyntaxException, IOException {

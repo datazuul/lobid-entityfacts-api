@@ -1,11 +1,13 @@
 package com.datazuul.lobid.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
+import javax.annotation.processing.Generated;
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.processing.Generated;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
@@ -31,7 +33,16 @@ import javax.annotation.processing.Generated;
         "sameAs"
 })
 @Generated("jsonschema2pojo")
-public class LobidOrganisation extends LobidEntity {
+public class LobidOrganisation {
+    @JsonProperty("@context")
+    protected String context;
+    @JsonProperty("type")
+    protected List<String> type;
+    @JsonProperty("id")
+    protected String id;
+    @JsonIgnore // problem: sometimes list of string, sometimes object with id = string (searchresponse)
+    @JsonProperty("sameAs")
+    protected List<String> sameAs = new ArrayList<>();
 
     @JsonProperty("rs")
     private String rs;
@@ -53,8 +64,6 @@ public class LobidOrganisation extends LobidEntity {
     private String name;
     @JsonProperty("location")
     private List<Location> location = new ArrayList<Location>();
-    @JsonProperty("id")
-    private String id;
     @JsonProperty("isil")
     private String isil;
     @JsonProperty("fundertype")
@@ -65,12 +74,101 @@ public class LobidOrganisation extends LobidEntity {
     private Collects collects;
     @JsonProperty("email")
     private String email;
+    @JsonProperty("telephone")
+    private String telephone;
     @JsonProperty("name_en")
     private String nameEn;
+    @JsonProperty("containedIn")
+    private String containedIn;
+    @JsonProperty("gndIdentifier")
+    private String gndIdentifier;
+    @JsonProperty("dbsID")
+    private String dbsId;
+
+    @JsonProperty("@context")
+    public String getContext() {
+        return context;
+    }
+
+    @JsonProperty("@context")
+    public void setContext(String context) {
+        this.context = context;
+    }
+
+    @JsonProperty("type")
+    public List<String> getType() {
+        return type;
+    }
+
+    @JsonProperty("type")
+    public void setType(List<String> type) {
+        this.type = type;
+    }
+
+    @JsonProperty("telephone")
+    public String getTelephone() {
+        return telephone;
+    }
+
+    @JsonProperty("telephone")
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+
+    @JsonProperty("containedIn")
+    public String getContainedIn() {
+        return containedIn;
+    }
+
+    @JsonProperty("containedIn")
+    public void setContainedIn(String containedIn) {
+        this.containedIn = containedIn;
+    }
+
+    @JsonProperty("gndIdentifier")
+    public String getGndIdentifier() {
+        return gndIdentifier;
+    }
+
+    @JsonProperty("gndIdentifier")
+    public void setGndIdentifier(String gndIdentifier) {
+        this.gndIdentifier = gndIdentifier;
+    }
+
+    @JsonProperty("dbsID")
+    public String getDbsId() {
+        return dbsId;
+    }
+    @JsonProperty("dbsID")
+    public void setDbsId(String dbsId) {
+        this.dbsId = dbsId;
+    }
 
     @JsonProperty("rs")
     public String getRs() {
         return rs;
+    }
+
+    @JsonIgnore
+    @JsonProperty("sameAs")
+    public List<String> getSameAs() {
+        return sameAs;
+    }
+
+    @JsonIgnore
+    @JsonProperty("sameAs")
+    public void setSameAs(List<String> sameAs) {
+        this.sameAs = sameAs;
+    }
+
+    @JsonProperty("id")
+    public String getId() {
+        return id;
+    }
+
+    @JsonProperty("id")
+    public void setId(String id) {
+        this.id = id;
     }
 
     @JsonProperty("rs")
@@ -312,10 +410,6 @@ public class LobidOrganisation extends LobidEntity {
         sb.append('=');
         sb.append(((this.sameAs == null) ? "<null>" : this.sameAs));
         sb.append(',');
-        sb.append("additionalProperties");
-        sb.append('=');
-        sb.append(((this.additionalProperties == null) ? "<null>" : this.additionalProperties));
-        sb.append(',');
         if (sb.charAt((sb.length() - 1)) == ',') {
             sb.setCharAt((sb.length() - 1), ']');
         } else {
@@ -341,7 +435,6 @@ public class LobidOrganisation extends LobidEntity {
         result = ((result * 31) + ((this.name == null) ? 0 : this.name.hashCode()));
         result = ((result * 31) + ((this.location == null) ? 0 : this.location.hashCode()));
         result = ((result * 31) + ((this.id == null) ? 0 : this.id.hashCode()));
-        result = ((result * 31) + ((this.additionalProperties == null) ? 0 : this.additionalProperties.hashCode()));
         result = ((result * 31) + ((this.isil == null) ? 0 : this.isil.hashCode()));
         result = ((result * 31) + ((this.fundertype == null) ? 0 : this.fundertype.hashCode()));
         result = ((result * 31) + ((this.sigel == null) ? 0 : this.sigel.hashCode()));
@@ -360,7 +453,7 @@ public class LobidOrganisation extends LobidEntity {
             return false;
         }
         LobidOrganisation rhs = ((LobidOrganisation) other);
-        return ((((((((((((((((((((((this.rs == rhs.rs) || ((this.rs != null) && this.rs.equals(rhs.rs))) && ((this.note == rhs.note) || ((this.note != null) && this.note.equals(rhs.note)))) && ((this.availableChannel == rhs.availableChannel) || ((this.availableChannel != null) && this.availableChannel.equals(rhs.availableChannel)))) && ((this.alternateName == rhs.alternateName) || ((this.alternateName != null) && this.alternateName.equals(rhs.alternateName)))) && ((this.nameEn == rhs.nameEn) || ((this.nameEn != null) && this.nameEn.equals(rhs.nameEn)))) && ((this.type == rhs.type) || ((this.type != null) && this.type.equals(rhs.type)))) && ((this.classification == rhs.classification) || ((this.classification != null) && this.classification.equals(rhs.classification)))) && ((this.mainEntityOfPage == rhs.mainEntityOfPage) || ((this.mainEntityOfPage != null) && this.mainEntityOfPage.equals(rhs.mainEntityOfPage)))) && ((this.url == rhs.url) || ((this.url != null) && this.url.equals(rhs.url)))) && ((this.picaPPN == rhs.picaPPN) || ((this.picaPPN != null) && this.picaPPN.equals(rhs.picaPPN)))) && ((this.context == rhs.context) || ((this.context != null) && this.context.equals(rhs.context)))) && ((this.name == rhs.name) || ((this.name != null) && this.name.equals(rhs.name)))) && ((this.location == rhs.location) || ((this.location != null) && this.location.equals(rhs.location)))) && ((this.id == rhs.id) || ((this.id != null) && this.id.equals(rhs.id)))) && ((this.additionalProperties == rhs.additionalProperties) || ((this.additionalProperties != null) && this.additionalProperties.equals(rhs.additionalProperties)))) && ((this.isil == rhs.isil) || ((this.isil != null) && this.isil.equals(rhs.isil)))) && ((this.fundertype == rhs.fundertype) || ((this.fundertype != null) && this.fundertype.equals(rhs.fundertype)))) && ((this.sigel == rhs.sigel) || ((this.sigel != null) && this.sigel.equals(rhs.sigel)))) && ((this.collects == rhs.collects) || ((this.collects != null) && this.collects.equals(rhs.collects)))) && ((this.email == rhs.email) || ((this.email != null) && this.email.equals(rhs.email)))) && ((this.sameAs == rhs.sameAs) || ((this.sameAs != null) && this.sameAs.equals(rhs.sameAs))));
+        return ((((((((((((((((((((((this.rs == rhs.rs) || ((this.rs != null) && this.rs.equals(rhs.rs))) && ((this.note == rhs.note) || ((this.note != null) && this.note.equals(rhs.note)))) && ((this.availableChannel == rhs.availableChannel) || ((this.availableChannel != null) && this.availableChannel.equals(rhs.availableChannel)))) && ((this.alternateName == rhs.alternateName) || ((this.alternateName != null) && this.alternateName.equals(rhs.alternateName)))) && ((this.nameEn == rhs.nameEn) || ((this.nameEn != null) && this.nameEn.equals(rhs.nameEn)))) && ((this.type == rhs.type) || ((this.type != null) && this.type.equals(rhs.type)))) && ((this.classification == rhs.classification) || ((this.classification != null) && this.classification.equals(rhs.classification)))) && ((this.mainEntityOfPage == rhs.mainEntityOfPage) || ((this.mainEntityOfPage != null) && this.mainEntityOfPage.equals(rhs.mainEntityOfPage)))) && ((this.url == rhs.url) || ((this.url != null) && this.url.equals(rhs.url)))) && ((this.picaPPN == rhs.picaPPN) || ((this.picaPPN != null) && this.picaPPN.equals(rhs.picaPPN)))) && ((this.context == rhs.context) || ((this.context != null) && this.context.equals(rhs.context)))) && ((this.name == rhs.name) || ((this.name != null) && this.name.equals(rhs.name)))) && ((this.location == rhs.location) || ((this.location != null) && this.location.equals(rhs.location)))) && ((this.id == rhs.id) || ((this.id != null) && this.id.equals(rhs.id))))) && ((this.isil == rhs.isil) || ((this.isil != null) && this.isil.equals(rhs.isil)))) && ((this.fundertype == rhs.fundertype) || ((this.fundertype != null) && this.fundertype.equals(rhs.fundertype)))) && ((this.sigel == rhs.sigel) || ((this.sigel != null) && this.sigel.equals(rhs.sigel)))) && ((this.collects == rhs.collects) || ((this.collects != null) && this.collects.equals(rhs.collects)))) && ((this.email == rhs.email) || ((this.email != null) && this.email.equals(rhs.email)))) && ((this.sameAs == rhs.sameAs) || ((this.sameAs != null) && this.sameAs.equals(rhs.sameAs))));
     }
 
 }
